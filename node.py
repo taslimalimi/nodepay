@@ -9,7 +9,7 @@ from loguru import logger
 from websockets_proxy import Proxy, proxy_connect
 from urllib.parse import urlparse
 
-NP_TOKEN="ENTER YOUR NP TOKEN HERE"
+NP_TOKEN="eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMjQ1NDI4MDExNjc1NjgwNzY4IiwiaWF0IjoxNzE5ODU3MzAxLCJleHAiOjE3MjEwNjY5MDF9.7V6YlwJ9KC3t1KtuZXvWrRVq61ts71dLXDVSp2GBJ3eqs72f8qzufvq045YcSR7qi7oYiEhcxBbF2B2UAgwPEQ"
 
 WEBSOCKET_URL = "wss://nw.nodepay.ai:4576/websocket"
 RETRY_INTERVAL = 60000  # in milliseconds
@@ -46,7 +46,7 @@ async def call_api_info(token):
     return {
         "code": 0,
         "data": {
-            "uid": ENTERYOURUIDHERE,
+            "uid": 1245428011675680768,
         }
     }
 
